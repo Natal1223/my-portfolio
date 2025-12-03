@@ -16,8 +16,6 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#sqa">SQA</a></li>
-      <li><a href="#uiux">UI/UX</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -46,12 +44,12 @@
 
       <div class="about-text">
         <p>
-          I am <b>Lasro Pesta Natalia Tamba</b>, a 5th-semester IT student at
-          Del Institute of Technology specializing in <b>SQA, UI/UX, and project documentation.</b>
+          I am Lasro Pesta Natalia Tamba, a 5th-semester IT student at
+          Del Institute of Technology specializing in SQA, UI/UX, and project documentation.
         </p>
 
         <p>
-          I actively manage GitHub repositories under the username <b>Natal1223</b>.
+          I actively manage GitHub repositories under the username Natal1223.
           My workflow combines structured testing, clean visual design, and AI tools.
         </p>
       </div>
@@ -60,100 +58,127 @@
   </section>
 
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section-box">
-  <h2>Projects</h2>
+<!-- PROJECTS -->
+<section id="projects" class="section-box">
+  <h2 class="section-title">Projects</h2>
 
   <div class="grid">
 
-    <!-- Featured -->
-    <div class="card xl"><a href="https://www.figma.com/design/e7nowvmJulRcrFx27GBRUR/Tampilan-Website-YPA?node-id=0-1&t=M7LWa1K8B9N4DxA2-1">
-      <img src="/assets/YPA .jpg" class="project-img">
+    <!-- 1 -->
+    <div class="card project-card">
+      <img src="/assets/YPA .jpg" class="project-img" alt="YPA">
       <h3>Website YPA Rumah Damai</h3>
-      <p>UI Designer • Documentation</p> </a>
+      <p>UI Designer • Documentation</p>
+      <a href="https://www.figma.com/design/e7nowvmJulRcrFx27GBRUR/Tampilan-Website-YPA" 
+         class="project-btn" target="_blank">View Project</a>
     </div>
 
-    <div class="card xl">
-      <img src="/assets/sma.jpg" class="project-img">
+    <!-- 2 -->
+    <div class="card project-card">
+      <img src="/assets/sma.jpg" class="project-img" alt="SMAN 1">
       <h3>Website SMAN 1 Girsang Sipangan Bolon</h3>
       <p>Project Manager • SQA • UI Designer</p>
     </div>
 
-    <!-- GitHub -->
-    <a class="card" href="https://github.com/Natal1223/proyek_siska" target="_blank">
-      <img src="/assets/siska (2).png" class="project-img">
+    <!-- 3 -->
+    <div class="card project-card">
+      <img src="/assets/siska (2).png" class="project-img" alt="Siska">
       <h3>Proyek Siska</h3>
       <p>Web Dev • HTML</p>
-    </a>
+      <a href="https://github.com/Natal1223/proyek_siska" 
+         class="project-btn" target="_blank">Visit Repo</a>
+    </div>
 
-    <a class="card" href="https://github.com/Natal1223/flutter" target="_blank">
-      <img src="/assets/flutter.png" class="project-img">
+    <!-- 4 -->
+    <div class="card project-card">
+      <img src="/assets/flutter.png" class="project-img" alt="Flutter">
       <h3>Flutter App</h3>
       <p>UI/UX • Mobile Dev</p>
-    </a>
+      <a href="https://github.com/Natal1223/flutter" 
+         class="project-btn" target="_blank">Visit Repo</a>
+    </div>
 
-    <a class="card" href="https://github.com/Natal1223/my-sql" target="_blank">
-      <img src="/assets/sql.png" class="project-img">
+    <!-- 5 -->
+    <div class="card project-card">
+      <img src="/assets/sql.png" class="project-img" alt="SQL">
       <h3>MySQL Queries</h3>
       <p>Database Designer</p>
-    </a>
+      <a href="https://github.com/Natal1223/my-sql" 
+         class="project-btn" target="_blank">Visit Repo</a>
+    </div>
 
-    <!-- Figma -->
-     <a class="card" href="https://www.figma.com/design/9rlXC77bj5DqWMnVfnjHtM/Proyek_11323052?node-id=0-1&t=aCjqBYBE6I5Bel8W-1" target="_blank">
-      <img src="/assets/figma.jpg" class="project-img">
+    <!-- 6 -->
+    <div class="card project-card">
+      <img src="/assets/figma.jpg" class="project-img" alt="RKT">
       <h3>Rumah Kreatif Toba Redesign</h3>
       <p>Website Designer</p>
-    </a>
+      <a href="https://www.figma.com/design/9rlXC77bj5DqWMnVfnjHtM/Proyek_11323052" 
+         class="project-btn" target="_blank">View Design</a>
+    </div>
+
+  </div>
+
+  <!-- IMAGE POPUP -->
+  <div id="imgPopup" class="popup">
+    <span class="closeBtn">&times;</span>
+    <img class="popup-content" id="popupImg">
   </div>
 </section>
- 
-
-
-  <!-- SQA -->
-  <section id="sqa" class="section-box">
-    <h2>SQA Skills</h2>
-
-    <div class="grid">
-      <div class="chip">Test Cases</div>
-      <div class="chip">Manual Testing</div>
-      <div class="chip">Bug Reporting</div>
-      <div class="chip">API Testing</div>
-      <div class="chip">SUS Evaluation</div>
-      <div class="chip">UX Heuristic Testing</div>
-    </div>
-  </section>
-
-
-  <!-- UI/UX -->
-  <section id="uiux" class="section-box">
-    <h2>UI/UX Design</h2>
-
-    <div class="grid">
-      <div class="card">Wireframes</div>
-      <div class="card">High Fidelity UI</div>
-      <div class="card">User Flow</div>
-      <div class="card">Case Study</div>
-    </div>
-  </section>
-
 
   <!-- SKILLS -->
+<h1 class="skills-title">Skills & Tools</h1>
   <section id="skills" class="section-box">
-    <h2>Skills & Tools</h2>
-
+    <h2>Language</h2>
     <div class="grid">
-      <div class="chip">Laravel/PHP</div>
-      <div class="chip">Flutter</div>
-      <div class="chip">HTML/CSS/JS</div>
-      <div class="chip">SQL</div>
-      <div class="chip">Python</div>
-      <div class="chip">Postman</div>
-      <div class="chip">Figma</div>
-      <div class="chip">GitHub</div>
-      <div class="chip">Microsoft Excel </div>
-      <div class="chip">Microsoft Word </div>
-
+      <div class="chip">Indonesian - Native</div>
+      <div class="chip">English - Intermediate</div>
     </div>
+
+  <h2 style="margin-top:20px;">Quality Assurance (QA)</h2>
+  <div class="grid">
+    <div class="chip">Manual Testing</div>
+    <div class="chip">Test Case Writing</div>
+    <div class="chip">Bug Reporting</div>
+    <div class="chip">Postman (API Testing)</div>
+    <div class="chip">Blackbox Testing</div>
+    <div class="chip">Regression Testing</div>
+  </div>
+
+  <h2 style="margin-top:20px;">Frontend Development</h2>
+  <div class="grid">
+    <div class="chip">HTML</div>
+    <div class="chip">CSS</div>
+    <div class="chip">JavaScript</div>
+    <div class="chip">Flutter</div>
+    <div class="chip">UI Component Design</div>
+  </div>
+
+  <h2 style="margin-top:20px;">Backend Development</h2>
+  <div class="grid">
+    <div class="chip">Laravel / PHP</div>
+    <div class="chip">SQL Queries</div>
+    <div class="chip">Database Design</div>
+    <div class="chip">REST API</div>
+    <div class="chip">Python (Basic Backend)</div>
+  </div>
+
+  <h2 style="margin-top:20px;">UI/UX Design</h2>
+  <div class="grid">
+    <div class="chip">Wireframing</div>
+    <div class="chip">Prototyping</div>
+    <div class="chip">User Flow</div>
+    <div class="chip">Figma</div>
+    <div class="chip">Visual Design</div>
+  </div>
+
+  <h2 style="margin-top:20px;">General Tools</h2>
+  <div class="grid">
+    <div class="chip">GitHub</div>
+    <div class="chip">Microsoft Word</div>
+    <div class="chip">Microsoft Excel</div>
+    <div class="chip">Canva</div>
+  </div>
+
   </section>
   <!-- Experience -->
    <section id="experience" class="section-box">
@@ -244,6 +269,32 @@
     <p>GitHub: <a href="https://github.com/Natal1223" target="_blank">@Natal1223</a></p>
   </section>
 
-  <script type="module" src="main.js"></script>
+<script type="module" src="main.js"></script>
+
+<!-- POPUP IMAGE (CUMA ADA 1) -->
+<div id="imgPopup" class="popup">
+  <span class="closeBtn">&times;</span>
+  <img class="popup-content" id="popupImg">
+</div>
+
+<script>
+  const popup = document.getElementById("imgPopup");
+  const popupImg = document.getElementById("popupImg");
+  const closeBtn = document.querySelector(".closeBtn");
+
+  document.querySelectorAll(".project-img").forEach(img => {
+    img.addEventListener("click", () => {
+      popup.style.display = "block";
+      popupImg.src = img.src;
+    });
+  });
+
+  closeBtn.onclick = () => popup.style.display = "none";
+
+  popup.onclick = (e) => {
+    if (e.target === popup) popup.style.display = "none";
+  };
+</script>
+
 </body>
 </html>
